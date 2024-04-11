@@ -1,0 +1,190 @@
+/* Mobile */
+@media (max-width: 767px) {
+    /* Seção de Menu */
+    .menu__list {
+        display: none;
+    }
+
+    .menu__title {
+        display: block;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .menu__title img {
+        display: none;
+    }
+
+    .menu__list__item {
+        display: none;
+    }
+
+    /* Seção de Title */
+
+    /* Reorganiza o layout para dispositivos móveis */
+        /* Reorganiza o layout para dispositivos móveis */
+
+        .title__div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .title__profile {
+            order: -1; /* Move a imagem para cima */
+            margin-bottom: 10px; /* Adiciona espaço abaixo da imagem */
+        }
+    
+        .title__container {
+            text-align: center;
+            margin: 0 15px; /* Adiciona espaço nas laterais */
+        }
+    
+        .title__links {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .title__links__item {
+            margin: 0 5px;
+        }    
+
+    .skills {
+        text-align: center; /* Centraliza o conteúdo */
+        margin: 0 auto; /* Define as margens automáticas para centralizar horizontalmente */
+        max-width: 90%; /* Limita a largura máxima */
+    }
+
+    .hobbies {
+        text-align: center; /* Centraliza o conteúdo */
+        margin: 0 auto; /* Define as margens automáticas para centralizar horizontalmente */
+        max-width: 90%; /* Limita a largura máxima */
+    }
+
+    .academic__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .academic__university-logo {
+        margin-bottom: 10px; /* Adiciona espaço abaixo da imagem */
+    }
+
+    .academic__courses__box {
+        margin: 0; /* Redefine as margens */
+    }
+
+    .academic__courses__list {
+        padding: 0; /* Remove o padding padrão */
+    }
+
+    .academic__courses__item__title,
+    .academic__courses__item__subtitle {
+        margin: 5px 0; /* Adiciona margem vertical */
+    }
+
+    .experiencie__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 10px; /* Adiciona espaço nas laterais */
+    }
+
+    .experience__img__decodificador,
+    .experience__img__jogo {
+        margin-bottom: 10px; /* Adiciona espaço abaixo da imagem */
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .experience__info {
+        margin-bottom: 10px; /* Adiciona espaço abaixo do texto */
+    }
+
+    .experience__repo {
+        margin-top: 10px; /* Adiciona espaço acima do botão */
+    }
+
+    .formcontato__img {
+        display: none; /* Oculta a imagem em dispositivos móveis */
+    }
+
+    .formcontato__text {
+        width: 100%; /* Define a largura total para o conteúdo de texto */
+        margin-left: 30px;
+    }
+
+    .formcontato__form {
+        width: 100%; /* Define a largura total para o formulário */
+        
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Seção de Menu */
+    .menu__list {
+        display: none;
+    }
+
+    .menu__title {
+        margin-right: 20px;
+    }
+
+    .menu__list__item {
+        margin-left: 20px;
+    }
+
+    /* Seção de Title */
+    .title__profile {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .title__links__item {
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+
+    .academic__university-logo {
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .experience__info {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 80%; /* Limita a largura máxima das informações */
+        text-align: center; /* Centraliza o conteúdo */
+        font-size: 90%; /* Diminui o tamanho da fonte em relação ao tamanho padrão */
+    }
+
+    .experience__img__decodificador,
+    .experience__img__jogo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .formcontato__img {
+        display: none; /* Oculta a imagem em tablets */
+    }
+
+    .formcontato__text {
+        width: 100%; /* Define a largura total para o conteúdo de texto */
+        margin-left: 30px;
+    }
+
+    .formcontato__form {
+        width: 100%; /* Define a largura total para o formulário */
+    }
+}
+
+
+
+
+
